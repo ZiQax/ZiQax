@@ -1,0 +1,406 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .logo  {
+    position: relative;
+    left: -200px;
+    color: #ff6a00;
+    font-size: 1.5rem;
+  }
+
+  .logo > span {
+    color: red;
+  }
+  
+  .user-menu {
+    position: relative;
+    left: 85rem;
+    top: -50px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    height: 770px;
+  }
+  
+  .hero h2 {
+    position: relative;
+    top: 150px;
+    font-size: 3rem;
+    margin-bottom: 0px;
+  }
+  
+  .hero p {
+    position: relative;
+    top: 170px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .cta-button {
+    position: relative;
+    top: 200px;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  /* Video Collection Section */
+  .video-collection h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .library {
+    font-size: 1.5 rem;
+    position: relative;
+    left: 285px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+  }
+  
+  .tab {
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .tab:hover {
+    background-color: #ff6a00;
+    color: white;
+  }
+  
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .video-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .video-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-card h4 {
+    margin: 10px 0 5px;
+  }
+  
+  .video-card .instructor {
+    color: #777;
+  }
+  
+  .video-card .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Subscription Section */
+  .subscription {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .subscription form {
+    margin-top: 20px;
+  }
+  
+  .subscription input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .subscription button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    color: #777;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section h5 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  @media (min-width : 500px) {
+    .hero {
+      background-color: #000;
+      color: #fff;
+      padding: 30px 9px;
+      text-align: center;
+      height: 550px;
+    }
+    
+    .hero h2 {
+      position: relative;
+      top: 100px;
+      font-size: 1.2rem;
+      margin-bottom: 0px;
+      width: 100%;
+    }
+    
+    .hero p {
+      position: relative;
+      top: 150px;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+    }
+
+    .cta-button {
+      position: relative;
+      top: 200px;
+      background-color: #28a745;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    
+
+    .library {
+      font-size: 0.1 rem;
+      position: relative;
+      left: 0px;
+      text-align: center;
+    }
+
+    .video-collection h3 {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  
+    .library {
+      font-size: 15px;
+      position: relative;
+    }
+    
+    .tabs {
+      position: relative;
+      display: block;
+      width: 500px;
+      left: 50px;
+    }
+    
+    .tab {
+      padding: 10px 15px;
+      background-color: #f2f2f2;
+      border: 1px solid #ddd;
+      cursor: pointer;
+      width: 300px;
+      height: 50px;     
+    }
+    
+    .tab:hover {
+      background-color: #ff6a00;
+      color: white;
+    }
+    
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    
+    .video-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .video-card img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .video-card h4 {
+      margin: 10px 0 5px;
+    }
+    
+    .video-card .instructor {
+      color: #777;
+    }
+    
+    .video-card .info {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    
+    /* Subscription Section */
+    .subscription {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      height: 400px;
+
+    }
+
+    .subscription > .container > h4 {
+         position: relative;
+         top: 50px;
+    }
+
+    .subscription > .container > p{
+      position: relative;
+      top: 70px;
+ }
+
+    
+    .subscription form {
+      margin-top: 100px;
+    }
+    
+    .subscription input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+    
+    .subscription button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* Footer */
+    footer {
+      background: #f9f9f9;
+      padding: 40px 20px;
+      color: #777;
+    }
+    
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    
+    .footer-section h5 {
+      margin-bottom: 10px;
+    }
+
+    .footer-section > h5 > p {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+    
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .footer-section ul li {
+      margin-bottom: 5px;
+    }
+    
+    .footer-section ul li a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+  }
