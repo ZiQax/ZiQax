@@ -38,7 +38,7 @@ body {
   
   .user-menu {
     position: relative;
-    left: 84rem;
+    left: 85rem;
     top: -40px;
     text-decoration: none;
     color: rebeccapurple;
@@ -220,7 +220,35 @@ body {
     margin-top: 20px;
   }
 
-  @media (min-width : 500px) {
+  @media (max-width : 500px) {
+    .logo  {
+      position: relative;
+      left: 0px;
+      color: #ff6a00;
+      font-size: 1.5rem;
+    }
+  
+    .logo > span {
+      color: red;
+    }
+    
+    .user-menu {
+      position: relative;
+      left: 26rem;
+      top: -40px;
+      text-decoration: none;
+      color: rebeccapurple;
+      font-weight: 700;
+      font-size: 13px;
+    }
+  
+    .header .avatar img {
+      position: relative;
+      left: -60px;
+      width: 40px;
+      top: 0px;
+      cursor: pointer;
+    }
     .hero {
       background-color: #000;
       color: #fff;
