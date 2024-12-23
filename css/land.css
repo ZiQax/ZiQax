@@ -11,6 +11,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+
   
   /* Header */
   .header {
@@ -36,10 +38,19 @@ body {
   
   .user-menu {
     position: relative;
-    left: 85rem;
-    top: -50px;
+    left: 84rem;
+    top: -40px;
     text-decoration: none;
-    color: #007bff;
+    color: rebeccapurple;
+    font-weight: 700;
+  }
+
+  .header .avatar img {
+    position: relative;
+    left: -250px;
+    width: 50px;
+    top: 0px;
+    cursor: pointer;
   }
   
   /* Hero Section */
